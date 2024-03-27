@@ -71,10 +71,10 @@ function calcular(){
 const botaoLimpar = document.querySelector(".resultados button")
 botaoLimpar.addEventListener("click", limpar)
 
-function Limpar(){
+function limpar(){
     contaInput.value=""
 
-    botoesGorjeta.forEach(botao =>{
+    botoesGorjeta.forEach(botao => {
         botao.classList.remove("botao-ativo")
     })
 
